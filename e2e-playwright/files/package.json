@@ -10,13 +10,15 @@
     "test:integration": "npm run test tests/integration/integration.spec.ts",
     "test:acceptance:headed": "npm run test tests/acceptance/acceptance.spec.ts -- --headed",
     "test:installation:headed": "npm run test tests/installation/installation.spec.ts -- --headed",
-    "test:integration:headed": "npm run test tests/integration/integration.spec.ts -- --headed"
+    "test:integration:headed": "npm run test tests/integration/integration.spec.ts -- --headed",
+    "generate:pdf": "ts-node ./pdf-generator.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.1"
+    "@types/node": "^22.10.1",    
+    "puppeteer": "^23.10.4"
   }
 }
