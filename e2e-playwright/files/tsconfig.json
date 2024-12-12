@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2017", "dom"],
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"]
+}
